@@ -9,7 +9,7 @@ export default function Home() {
   const quizConfig=useQuiz(state=>state.config)
   const [questionNo,setQuestionNo]=useState(1)
 
-  const handleNo=(e)=>{
+  const handleNo=(e:any)=>{
     setQuestionNo(e.target.value)
     addNumberOFQuestion(e.target.value)
     

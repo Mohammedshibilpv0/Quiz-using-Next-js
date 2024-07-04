@@ -4,7 +4,7 @@ import React, { useEffect, useState } from 'react';
 import useQuiz from '../store';
 import { shuffle } from './sheffle';
 import Loading from '@/components/Loading';
-import { Timer } from '@/components/Timer';
+import Timer from '@/components/Timer';
 import { useRouter } from 'next/navigation';
 
 interface APIQuestion {
